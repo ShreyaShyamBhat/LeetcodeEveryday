@@ -10,6 +10,7 @@ import java.util.Map;
 */
 public class TwoSum {
     public static void main(String[] args){
+        System.out.println(Arrays.toString(findTwoSum(new int[]{3,3},6)));
         System.out.println(Arrays.toString(findTwoSumBetter(new int[]{3,3},6)));
     }
 
