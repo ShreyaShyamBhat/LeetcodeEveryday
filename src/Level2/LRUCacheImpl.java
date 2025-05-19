@@ -11,7 +11,6 @@ public class LRUCacheImpl {
     public static void main(String[] args){
 
     }
-
     class ListNode {
         int key;
         int val;
