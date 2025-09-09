@@ -1,5 +1,5 @@
 package Level1;
-
+//724. Find Pivot Index(Easy)(L75)
 //right sum = total sum - current index - left sum
 public class FindPivotIndex {
     public static void main(String[] args){
