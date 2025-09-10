@@ -1,5 +1,5 @@
 package Level1;
-
+//643. Maximum Average SubArray(Easy)(LeetCode75)
 public class MaxAverageSubArray {
     public static void main(String[] args){
         int[] arr= new int[]{1,12,-5,-6,50,3};
@@ -12,8 +12,8 @@ public class MaxAverageSubArray {
         }
         double res=sum;
         for(int i=window;i<arr.length;i++){
-            sum=sum+arr[i-1]+arr[i+1];
-            res=Math.max(sum,res);
+            sum+=arr[i]-arr[i-window];
+            res=Math.max(res,sum);
         }
         return res/window;
     }
