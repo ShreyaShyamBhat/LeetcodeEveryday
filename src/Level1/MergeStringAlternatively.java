@@ -1,5 +1,5 @@
 package Level1;
-//https://leetcode.com/problems/merge-strings-alternately/description/
+//1768. Merge Strings Alternately(Easy)(L75)
 public class MergeStringAlternatively {
 
     public static void main(String[] args){

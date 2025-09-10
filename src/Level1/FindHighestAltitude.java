@@ -1,5 +1,5 @@
 package Level1;
-
+//1732. Find the Highest Altitude(Easy)(L75)
 public class FindHighestAltitude {
     public static void main(String[] args){
         int[] gain= new int[]{-4,-3,-2,-1,4,3,2};

@@ -1,13 +1,8 @@
 package Level1;
-
-
+//1. Two Sum
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-
-/*
-* URL: https://leetcode.com/problems/two-sum/
-*/
 public class TwoSum {
     public static void main(String[] args){
         System.out.println(Arrays.toString(findTwoSum(new int[]{3,3},6)));

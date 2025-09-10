@@ -1,5 +1,5 @@
 package Level1;
-
+//392. Is Subsequence(Easy)(L75)
 public class IsSubsequence {
     public static void main(String[] args){
         System.out.println(checkSubsequence("abc","ahbgdc"));

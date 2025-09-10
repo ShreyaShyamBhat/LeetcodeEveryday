@@ -1,8 +1,6 @@
 package Level1;
-
+//2215. Find the Difference of Two Arrays(Easy)(L75)
 import java.util.*;
-//2215. Find the Difference of Two Arrays
-
 public class FindTheDifferenceOfTwoArrays {
     public static void main(String[] args){
        System.out.println(findDifference(new int[]{1,2,3,3},new int[]{1,1,2,2}));

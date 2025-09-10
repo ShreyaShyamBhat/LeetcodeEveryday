@@ -1,5 +1,5 @@
 package Level1;
-//643. Maximum Average SubArray(Easy)(LeetCode75)
+//643. Maximum Average SubArray I(Easy)(L75)
 public class MaxAverageSubArray {
     public static void main(String[] args){
         int[] arr= new int[]{1,12,-5,-6,50,3};

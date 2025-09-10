@@ -1,14 +1,11 @@
 package Level1;
-
-import java.lang.reflect.Array;
+//345. Reverse Vowels of a String(Easy)(L75)
 import java.util.ArrayList;
 import java.util.List;
 
 public class ReverseVowelsOfString {
     public static void main(String[] args){
-
         reverseVowels("leetcode");
-        //leotcede
     }
     public static String reverseVowels(String originalString){
         List<Integer> vowelsPositions = new ArrayList<>();
