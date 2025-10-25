@@ -5,9 +5,9 @@ import java.util.List;
 
 public class ReverseWordsInAString {
     public static void main(String[] args){
-        reverseVowels("The Sky Is Blue");
+        System.out.println(reverseWords("The Sky Is Blue"));
     }
-    public static String reverseVowels(String originalString){
+    public static String reverseWords(String originalString){
         for(int i =0,j=originalString.length()-1;i<(originalString.length()/2);i++,j--) {
             originalString=String.valueOf(switchPositions(originalString.toCharArray(),j,i));
         }
